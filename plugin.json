@@ -1,17 +1,13 @@
 {
   "pluginmetadataversion": 2,
-  "name": "Sample Plugin",
+  "name": "bn_highLightReferencesBlock",
   "type": [
-    "core",
-    "ui",
-    "architecture",
-    "binaryview",
-    "helper"
+    "ui"
   ],
   "api": [
     "python3"
   ],
-  "description": "This is a short description meant to fit on one line.",
+  "description": "highLight References Block",
   "longdescription": "",
   "license": {
     "name": "MIT",
@@ -28,24 +24,9 @@
     "Windows": "Install the following pip packages: ...\n\nInstall the following libraries: ..."
   },
   "dependencies": {
-    "pip": [
-      "array",
-      "of",
-      "pip",
-      "dependencies"
-    ],
-    "apt": [
-      "apt",
-      "packages"
-    ],
-    "installers": [
-      "https://bogus-domain/this-package.exe"
-    ],
-    "other": [
-      "The sample plugin requires [this random package](https://bogus-domain/this-package/) be installed."
-    ]
+
   },
-  "version": "1.3.5",
-  "author": "Vector 35 Inc",
+  "version": "1.0.0",
+  "author": "ltlly",
   "minimumbinaryninjaversion": 3164
 }
