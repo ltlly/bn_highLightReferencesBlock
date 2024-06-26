@@ -52,7 +52,6 @@ def highLightBlock_middle(bv: BinaryView, inst: MediumLevelILInstruction):
     defines = mlil.get_var_definitions(var)
     references = uses + defines
     references = list(set(references))
-    print(references)
     for ref in references:
         block = mlil.get_basic_block_at(ref.instr_index)
         block.highlight = HighlightStandardColor.BlueHighlightColor
